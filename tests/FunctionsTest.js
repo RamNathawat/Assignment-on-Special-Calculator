@@ -4,7 +4,7 @@ describe('Create an addition operation for the special calculator - ', function 
   });
 
   it('Adding two numbers using special addition method', function () {
-    let expectedResult = 5;
+    let expectedResult = 15;
 
     let actualResult = specialAddition(10, 5);
 
@@ -88,7 +88,7 @@ describe('Create a division operation for the special calculator - ', function (
   });
 
   it('Adding two valid numbers using special calculator', function () {
-    let expectedResult = 5;
+    let expectedResult = 15;
 
     let actualResult = specialCalculator(10, 5, specialAddition);
 
